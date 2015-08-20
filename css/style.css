@@ -1,0 +1,85 @@
+#portfolio{
+	background-color: #eee
+}
+#about{
+	background-color: #eee
+}
+
+#writing{
+	background-color: #eee
+}
+
+.workname, .resumename, .aboutname, .introname {
+	height:-1%;
+	width:100%;
+	opacity:0.88;
+}
+.workname h3, .resumename h3, .aboutname h3, .introname h3{
+	text-transform: uppercase;
+	
+	
+	padding: 35px 0px 0px 20px;
+	font-weight:bold;
+	border-bottom:1px solid #dddddd;
+	margin-bottom:30px;
+}
+
+.preview-img {
+    width: 100%;
+    margin: 10px 0px 30px 0px;
+    box-shadow: 0 0 5px #000000 ;
+}
+.preview-img1 {
+    background-image:url(/image/gifted1.png);
+    width: 100%;
+    margin: 10px 0px 30px 0px;
+    box-shadow: 0 0 5px #9ED9B0;
+}
+
+.preview-img1:hover{
+    background-image:url(/image/gifted.png);
+    width: 100%;
+    margin: 10px 0px 30px 0px;
+    box-shadow: 0 0 5px #9ED9B0;
+}
+
+.bigcolumn{
+	position: relative;
+	width: 100%;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
+	float: left;
+}
+
+.workrow{
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;	
+	float:left;
+}
+
+h5 {
+	font-size: 1.125em;
+}
+
+.subhead{
+	line-height: 1.4;
+	font-weight: 300;
+	margin-top: 0.2em;
+	margin-bottom: 0.5em;
+}
+
+p{
+font-family: inherit;
+font-weight: normal;
+font-size: 1em;
+line-height: 1.6;
+margin-bottom: 1.25em;
+text-rendering: optimizeLegibility;
+}
+
+p img{
+	margin-left: 5px;
+}
+
+
+
